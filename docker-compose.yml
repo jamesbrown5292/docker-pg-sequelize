@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  node_backend:
+    container_name: docker_pg_sq
+    image: docker_pg_sq
+    build:
+      context: .
+    ports:
+      - "3001:3001"
+    environment:
+      - EXTERNAL_PORT=3001
