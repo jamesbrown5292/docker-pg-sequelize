@@ -1,12 +1,11 @@
 const controller = require('../controllers/user');
 const router = require('express').Router();
 
-//CRUD
+//Routes for register, login, logout
 router
-    .get('/', controller.getAll)
-    .get('/:id', controller.getOne)
-    .post('/', controller.createOne)
-    .put('/:id', controller.updateOne)
-    .delete('/:id', controller.deleteOne)
+    .post('/register', controller.registerUser)
+    .post('/login', controller.loginUser)
+    .post('/logout', controller.logoutUser)
+
 
 module.exports = router
