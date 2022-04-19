@@ -26,7 +26,7 @@ The app is built in Node.js, Express, PostgreSQL and Sequelize. JSON Web Tokens 
 
 
 # REST API
-The REST API contains three endpoints as listed below. These can be tested in an API testing client such as Postman. Routes should be tested at `http://localhost:3001/user/[plus desired endpoint]`. A postman collection has been provided for testing the routes. 
+The REST API contains three endpoints as listed below. These can be tested in an API testing client such as Postman. Routes should be tested at `http://localhost:3001/user/[plus desired endpoint]`. A postman collection has been provided for testing the routes. The collection can be found in the `postman` directory. This JSON file should be imported into Postman
 
 
 ## Using authorization~
