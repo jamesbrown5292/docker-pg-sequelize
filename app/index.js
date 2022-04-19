@@ -22,7 +22,6 @@ app.use('/user', require('./routes/user'));
     await sequelize.sync(
         {force: false}
     )
-    console.log("Server connected")
     app.listen(process.env.EXTERNAL_PORT || 3001)
 } catch (error) {
     console.error(error)
